@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void saysHi(){
-    cout << "Hello world";
-}
+void saysHi(string name);
+
 int main()
 {
-    saysHi();
+    saysHi("Dillan");
 
     return 0;
+}
+
+void saysHi(string name){
+    cout << "Hello " << name << endl;
 }
