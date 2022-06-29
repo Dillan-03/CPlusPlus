@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double cube(int number);
+double cube(double number);
 
 int main()
 {
@@ -10,6 +10,6 @@ int main()
     
 }
 
-double cube(int number){
+double cube(double number){
    return (2*2*2);
 }
